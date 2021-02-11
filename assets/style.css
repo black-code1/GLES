@@ -1,0 +1,316 @@
+@import url("https://fonts.googleapis.com/css2?family=Englebert&family=Satisfy&family=Ubuntu:wght@400;500&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  color: black;
+}
+
+:root {
+  --red: #e64e5f;
+  --violet: #b81f70;
+  --orange: #ff8550;
+}
+nav {
+  background: #6c97c8;
+}
+.container {
+  width: 80%;
+  margin: auto;
+  max-width: 1100px;
+}
+.menu {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+.main-menu {
+  display: flex;
+  justify-content: space-between;
+}
+.main-menu li {
+  padding: 10px;
+}
+
+.main-menu li a,
+.logo {
+  color: white;
+  font-size: 18px;
+  font-family: "Englebert";
+  font-weight: bold;
+}
+.logo {
+  letter-spacing: 6px;
+}
+.landing {
+  margin: 30px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.jumbotron {
+  width: 70%;
+  padding: 40px;
+  /*-webkit-box-shadow: -1px 2px 39px 0px rgba(209,163,209,1);
+-	moz-box-shadow: -1px 2px 39px 0px rgba(209,163,209,1);
+	box-shadow: -1px 2px 39px 0px rgba(209,163,209,1);*/
+  -webkit-box-shadow: 1px 1px 7px 19px rgba(255, 255, 255, 1);
+  -moz-box-shadow: 1px 1px 7px 19px rgba(255, 255, 255, 1);
+  box-shadow: 1px 1px 7px 19px rgba(255, 255, 255, 1);
+}
+.jumbotron p:first-child {
+  font-family: "Ubuntu";
+  font-size: 25px;
+  text-transform: uppercase;
+}
+.jumbotron p:nth-child(2) {
+  font-family: "Satisfy";
+  font-size: 20px;
+}
+.classes .row {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 40px;
+  margin-top: 10px;
+}
+.card a {
+  color: white;
+  text-transform: uppercase;
+  font-size: 19px;
+  font-family: "Ubuntu";
+}
+.card {
+  border: none;
+  border-radius: 10px;
+  text-align: center;
+  padding: 20px 10px;
+  transition: all 0.3s ease;
+}
+.card:hover {
+  transform: scale(1.1);
+}
+.card:first-child {
+  background-color: #845ec2;
+}
+.card:nth-child(5) {
+  background-color: #008c81;
+}
+.card:nth-child(9) {
+  background-color: #3b1e79;
+}
+.card:nth-child(2) {
+  background: #00c9a7;
+}
+.card:nth-child(6) {
+  background: #3b1e79;
+}
+.card:nth-child(3) {
+  background: #3b1e79;
+}
+.card:nth-child(4) {
+  background: #00c2a8;
+}
+.card:nth-child(8) {
+  background: #845ec2;
+}
+.card:nth-child(12) {
+  background: #00896f;
+}
+.card:nth-child(7) {
+  background: #00896f;
+}
+.card:nth-child(11) {
+  background: #008bc6;
+}
+.card:nth-child(10) {
+  background-color: #009efa;
+}
+.card:nth-child(13) {
+  background: #008c81;
+}
+.card:nth-child(14) {
+  background: #3596b5;
+}
+.card:nth-child(15) {
+  background: #845ec2;
+}
+.card:nth-child(16) {
+  background: #3b1e79;
+}
+.card:nth-child(17) {
+  background-color: #a87168;
+}
+.card:nth-child(18) {
+  background: #640000;
+}
+.card:nth-child(19) {
+  background: #00c7b5;
+}
+.card:nth-child(20) {
+  background: #5bbb56;
+}
+.card:nth-child(21) {
+  background: #71a0ff;
+}
+.card:nth-child(22) {
+  background-color: #3a001e;
+}
+.card:nth-child(23) {
+  background: #42be44;
+}
+.card:nth-child(24) {
+  background: #ff8550;
+}
+.card:nth-child(25) {
+  background: #5bbb56;
+}
+.card:nth-child(26) {
+  background: #7bc6cd;
+}
+.card:nth-child(27) {
+  background-color: #7be3bc;
+}
+.card:nth-child(28) {
+  background: #c5f689;
+}
+.card:nth-child(29) {
+  background: #004b2e;
+}
+.card:nth-child(30) {
+  background: #7bc6cd;
+}
+.card:nth-child(31) {
+  background: #508f7e;
+}
+.card:nth-child(32) {
+  background-color: #b81f70;
+}
+.card:nth-child(32) {
+  background: #58bf7f;
+}
+.card:nth-child(33) {
+  background: #00a9bf;
+}
+.card:nth-child(34) {
+  background: #7bc6cd;
+}
+.card:nth-child(35) {
+  background: #7bc6cd;
+}
+.card:nth-child(36) {
+  background-color: #b81f70;
+}
+.card:nth-child(37) {
+  background: #c389c1;
+}
+.card:nth-child(38) {
+  background: #b81f70;
+}
+.card:nth-child(39) {
+  background: #7bc6cd;
+}
+.card:nth-child(40) {
+  background: #91f8b4;
+}
+.card:nth-child(41) {
+  background-color: #7bc6cd;
+}
+.card:nth-child(42) {
+  background: #005c77;
+}
+.card:nth-child(43) {
+  background: #00b890;
+}
+.card:nth-child(44) {
+  background: #00b890;
+}
+.card:nth-child(45) {
+  background: #00a9bf;
+}
+.card:nth-child(46) {
+  background-color: #7bc6cd;
+}
+.card:nth-child(47) {
+  background: #0097c1;
+}
+.card:nth-child(48) {
+  background: #25767d;
+}
+.card:nth-child(49) {
+  background: #005157;
+}
+.card:nth-child(50) {
+  background: #7bc6cd;
+}
+.card:nth-child(51) {
+  background-color: #35838a;
+}
+.classes {
+  margin: 15px 0;
+}
+.classes h2 {
+  text-align: center;
+}
+/*page liste des eleves*/
+.table {
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+  border-spacing: 0;
+  border-radius: 10px 10px 0 0;
+}
+.eleves {
+  margin-top: 20px;
+}
+.eleves h2 {
+  text-align: center;
+}
+th {
+  background: #6c97c8;
+  color: white;
+  font-family: "Englebert";
+  text-transform: uppercase;
+}
+th,
+td {
+  padding: 12px 10px;
+}
+tr:nth-child(even) {
+  background-color: #7bc6cd;
+  opacity: 0.7;
+}
+h2 {
+  font-family: "Ubuntu";
+  font-weight: normal;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+h2 p {
+  font-family: "Satisfy";
+}
+.detail .row {
+  display: grid;
+  grid-gap: 40px;
+  grid-template-columns: 1fr 1fr;
+}
+.card-detail:nth-child(2) {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.content span {
+  font-size: 30px;
+}
+.content {
+  text-align: center;
+}
+@media (max-width: 540px) {
+  .container {
+    width: 95%;
+  }
+  .row {
+    grid-template-columns: 1fr 1fr;
+  }
+}
